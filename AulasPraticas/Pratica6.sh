@@ -8,7 +8,7 @@ paralelepipedo () {
     echo "scale=2; sqrt($d)" | bc
 }
 
-MDC () {
+MDC() {
     mdc=1
     res=1
 
@@ -20,7 +20,7 @@ MDC () {
         fi
         mdc=$(($mdc+1))
         done
-    echo "$res"
+    echo "O MDC de $1, $2 e $3 é $res"
 }
 
 case $1 in
